@@ -1,0 +1,14 @@
+  <gallery text="#000000" date="4/11/2006" background="#FFFFFF" vlink="#800080" link="#0000FF" alink="#FF0000" base="">
+    <security></security>
+    <thumbnail col="5" fontsize="4" border="0" color="#F0F0F0" rows="3" font="Arial" base="thumbs/"> </thumbnail>
+    <banner fontsize="3" color="#F0F0F0" font="Arial"> </banner>
+    <photos id="images">
+      <photo thumbheight="75" thumbwidth="75" height="500" thumbpath="IMG_9809.GIF" path="IMG_9809.JPG" width="333" />
+      <photo thumbheight="75" thumbwidth="75" height="333" thumbpath="IMG_9901.GIF" path="IMG_9901.JPG" width="500" />
+    </photos>
+    <sitename>yyyymmdd/</sitename>
+    <contactinfo></contactinfo>
+    <photographer></photographer>
+    <large fontsize="3" border="0" color="#F0F0F0" font="Arial" base="med_size/"> </large>
+    <email></email>
+  </gallery>

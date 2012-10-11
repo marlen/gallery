@@ -1,0 +1,15 @@
+  <gallery base="" background="#FFFFFF" text="#000000" date="4/11/2006" vlink="#800080" link="#0000FF" alink="#FF0000">
+    <banner fontsize="3" color="#F0F0F0" font="Arial"> </banner>
+    <security></security>
+    <thumbnail col="5" border="0" fontsize="4" rows="3" color="#F0F0F0" font="Arial" base="thumbs/"> </thumbnail>
+    <photos id="images">
+      <photo path="IMG_9706.JPG" thumbpath="IMG_9706.GIF" thumbwidth="75" thumbheight="75" width="648" height="432" />
+      <photo path="IMG_9707.JPG" thumbpath="IMG_9707.GIF" thumbwidth="75" thumbheight="75" width="648" height="432" />
+      <photo path="IMG_9708.JPG" thumbpath="IMG_9708.GIF" thumbwidth="75" thumbheight="75" width="648" height="432" />
+    </photos>
+    <contactinfo></contactinfo>
+    <sitename>2007_07_09/</sitename>
+    <large border="0" fontsize="3" color="#F0F0F0" font="Arial" base="med_size/"> </large>
+    <photographer></photographer>
+    <email></email>
+  </gallery>

@@ -1,0 +1,24 @@
+  <gallery base="" background="#FFFFFF" text="#000000" date="4/11/2006" vlink="#800080" link="#0000FF" alink="#FF0000">
+    <banner fontsize="3" color="#F0F0F0" font="Arial"> </banner>
+    <security></security>
+    <thumbnail col="5" border="0" fontsize="4" rows="3" color="#F0F0F0" font="Arial" base="thumbs/"> </thumbnail>
+    <photos id="images">
+      <photo path="IMG_0003.JPG" thumbpath="IMG_0003.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_0012.JPG" thumbpath="IMG_0012.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9949.JPG" thumbpath="IMG_9949.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9950.JPG" thumbpath="IMG_9950.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9956.JPG" thumbpath="IMG_9956.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9957.JPG" thumbpath="IMG_9957.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9967.JPG" thumbpath="IMG_9967.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9969.JPG" thumbpath="IMG_9969.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9973.JPG" thumbpath="IMG_9973.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9976.JPG" thumbpath="IMG_9976.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9982.JPG" thumbpath="IMG_9982.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9984.JPG" thumbpath="IMG_9984.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+    </photos>
+    <contactinfo></contactinfo>
+    <sitename>2007_09_02/</sitename>
+    <large border="0" fontsize="3" color="#F0F0F0" font="Arial" base="med_size/"> </large>
+    <photographer></photographer>
+    <email></email>
+  </gallery>

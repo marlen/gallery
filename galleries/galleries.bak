@@ -1,0 +1,16 @@
+  <galleries>
+    <gallery file="photos.xml" base="yyyymmdd/">
+      <security></security>
+      <contactinfo>http://haoandelena.com</contactinfo>
+      <sitename>yyyymmdd Ogie&apos;s Birthday</sitename>
+      <photographer>Hao and Elena Ching</photographer>
+      <email>elena@haoandelena.com</email>
+    </gallery>
+    <gallery base="2007_07_09/" file="photos.xml">
+      <security></security>
+      <sitename>2007_07_09</sitename>
+      <contactinfo>http://haoandelena.com</contactinfo>
+      <photographer>Elena Ching</photographer>
+      <email>elena@haoandelena.com</email>
+    </gallery>
+  </galleries>

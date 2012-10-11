@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><!-- Copyright (c) 2006. Adobe Systems Incorporated. All rights reserved. -->
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>Gallery Source</title>
+
+<link href="source_files/screen.css" rel="stylesheet" type="text/css"></head><body id="codesample">
+<div id="wrap">
+<h1>Gallery Source<span class="return"><a href="http://labs.adobe.com/technologies/spry/demos/index.html">Back to Demos</a></span> <span class="demo"><a href="http://labs.adobe.com/technologies/spry/demos/gallery/index.html">Return to Gallery Demo</a></span></h1>
+<div class="sample">
+<pre class="codeSample"><code>
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;!-- Copyright (c) 2006. Adobe Systems Incorporated. All rights reserved. --&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" <span class="highlightedcode">xmlns:spry="http://ns.adobe.com/spry"</span>&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" /&gt;
+&lt;title&gt;Gallery&lt;/title&gt;
+&lt;link href="../css/screen.css" rel="stylesheet" type="text/css" /&gt;
+<span class="highlightedcode">&lt;script type="text/javascript" src="includes/xpath.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="includes/SpryData.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="includes/SpryEffects.js"&gt;&lt;/script&gt;</span>
+&lt;script type="text/javascript"&gt;
+<span class="highlightedcode">var dsGalleries = new Spry.Data.XMLDataSet("galleries/galleries.xml", "galleries/gallery");
+var dsGallery = new Spry.Data.XMLDataSet("galleries/{dsGalleries::@base}{dsGalleries::@file}", "gallery");
+var dsPhotos = new Spry.Data.XMLDataSet("galleries/{dsGalleries::@base}{dsGalleries::@file}", "gallery/photos/photo");</span>
+&lt;/script&gt;
+&lt;script src="gallery.js"  type="text/javascript"&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body id="gallery"&gt;
+&lt;noscript&gt;&lt;h1&gt;This page requires JavaScript. Please enable JavaScript in your browser and reload this page.&lt;/h1&gt;&lt;/noscript&gt;
+&lt;div id="wrap"&gt;
+	&lt;h1 id="albumName" <span class="highlightedcode">spry:region="dsGallery"</span>&gt;<span class="highlightedcode">{sitename}</span> &lt;span class="return"&gt;&lt;a href="../index.html"&gt;Back to Demos&lt;/a&gt;&lt;/span&gt; &lt;span class="source"&gt;&lt;a href="source.html"&gt;View Source &lt;/a&gt;&lt;/span&gt;&lt;/h1&gt;
+	&lt;div id="previews"&gt;
+		&lt;div id="galleries" <span class="highlightedcode">spry:region="dsGalleries"</span>&gt;
+		&lt;label for="gallerySelect"&gt;View:&lt;/label&gt;
+			&lt;select <span class="highlightedcode">spry:repeatchildren="dsGalleries"</span> id="gallerySelect" onchange="<span class="highlightedcode">dsGalleries.setCurrentRowNumber(this.selectedIndex);</span>"&gt;
+				&lt;option <span class="highlightedcode">spry:if="{ds_RowNumber} == {ds_CurrentRowNumber}"</span> selected="selected"&gt;<span class="highlightedcode">{sitename}</span>&lt;/option&gt;
+				&lt;option <span class="highlightedcode">spry:if="{ds_RowNumber} != {ds_CurrentRowNumber}"</span>&gt;<span class="highlightedcode">{sitename}</span>&lt;/option&gt;
+			&lt;/select&gt;
+		&lt;/div&gt;
+		&lt;div id="controls"&gt;
+			&lt;ul id="transport"&gt;
+				&lt;li&gt;&lt;a href="#" onclick="StopSlideShow(); AdvanceToNextImage(true);" title="Previous"&gt;Previous&lt;/a&gt;&lt;/li&gt;
+				&lt;li class="pausebtn"&gt;&lt;a href="#" onclick="if (gSlideShowOn) StopSlideShow(); else StartSlideShow();" title="Play/Pause" id="playLabel"&gt;Play&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="#" onclick="StopSlideShow(); AdvanceToNextImage();" title="Next"&gt;Next&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/div&gt;
+		&lt;div id="thumbnails" <span class="highlightedcode">spry:region="dsPhotos dsGalleries dsGallery"</span>&gt;
+			&lt;div spry:repeat="dsPhotos" onclick="HandleThumbnailClick('<span class="highlightedcode">{ds_RowID}</span>');" onmouseover="GrowThumbnail(this.getElementsByTagName('img')[0], '<span class="highlightedcode">{@thumbwidth}</span>', '<span class="highlightedcode">{@thumbheight}</span>');" onmouseout="ShrinkThumbnail(this.getElementsByTagName('img')[0]);"&gt;
+				&lt;img id="tn<span class="highlightedcode">{ds_RowID}</span>" alt="thumbnail for <span class="highlightedcode">{@thumbpath}</span>" src="galleries/<span class="highlightedcode">{dsGalleries::@base}{dsGallery::thumbnail/@base}{@thumbpath}</span>" width="24" height="24" style="left: 0px; right: 0px;" /&gt;
+			&lt;/div&gt;
+			&lt;p class="ClearAll"&gt;&lt;/p&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div id="picture"&gt;
+		&lt;div id="mainImageOutline" style="width: 0px; height: 0px;"&gt;&lt;img id="mainImage" alt="main image" /&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;p class="clear"&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code>	
+</pre>
+</div></div>
+</body></html>

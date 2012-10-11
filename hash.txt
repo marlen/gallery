@@ -1,0 +1,36 @@
+{
+"gallery" => {
+  "base"=>"",
+  "background"=>"#FFFFFF",
+  "banner"=>{"fontsize"=>"3", "content"=>" ", "color"=>"#F0F0F0", "font"=>"Arial"}, 
+ 
+  "security"=>[{}],
+  "thumbnail"=>[{"col"=>"5", "border"=>"0", "fontsize"=>"4", "content"=>" ", "rows"=>"3", "color"=>"#F0F0F0", "font"=>"Arial", "base"=>"thumbnails/"}], 
+  "text"=>"#000000", 
+  "date"=>"4/11/2006", 
+  "photos"=>[{"photo"=>[{"thumbheight"=>"75", "thumbwidth"=>"56", "content"=>"\n", "height"=>"350", "thumbpath"=>"china_01.jpg", "path"=>"china_01.jpg", "width"=>"263"}, 
+                        {"thumbheight"=>"75", "thumbwidth"=>"56", "content"=>"\n", "height"=>"350", "thumbpath"=>"china_18.jpg", "path"=>"china_18.jpg", "width"=>"263"}, 
+                        {"thumbheight"=>"56", "thumbwidth"=>"75", "content"=>"\n", "height"=>"263", "thumbpath"=>"china_24.jpg", "path"=>"china_24.jpg", "width"=>"350"}
+                       ],
+             "id"=>"images"}
+            ], 
+  "vlink"=>"#800080",
+  "contactinfo"=>[{}],
+  "sitename"=>["China Gallery"],
+  "link"=>"#0000FF", 
+  "large"=>[{"border"=>"0", "fontsize"=>"3", "content"=>" ", "color"=>"#F0F0F0", "font"=>"Arial", "base"=>"images/"}], 
+  "photographer"=>[{}], 
+  "alink"=>"#FF0000", 
+  "email"=>[{}],
+
+}
+}
+
+
+{"galleries"=>[ {
+   "gallery"=>[{"security"=>[{}], "contactinfo"=>["http://www.adobe.com"], "sitename"=>["China"], "photographer"=>["Don Booth"], "email"=>["dbooth@adobe.com"], "file"=>"photos.xml", "base"=>"china/"}, 
+               {"security"=>[{}], "contactinfo"=>["http://www.adobe.com"], "sitename"=>["Egypt"], "photographer"=>["Don Booth"], "email"=>["dbooth@adobe.com"], "file"=>"photos.xml", "base"=>"egypt/"}, 
+               {"security"=>[{}], "contactinfo"=>["http://www.adobe.com"], "sitename"=>["Paris"], "photographer"=>["Don Booth"], "email"=>["dbooth@adobe.com"], "file"=>"photos.xml", "base"=>"paris/"}
+              ] }
+              ]
+}

@@ -1,0 +1,28 @@
+  <gallery base="" background="#FFFFFF" text="#000000" date="4/11/2006" vlink="#800080" link="#0000FF" alink="#FF0000">
+    <banner fontsize="3" color="#F0F0F0" font="Arial"> </banner>
+    <security></security>
+    <thumbnail col="5" border="0" fontsize="4" rows="3" color="#F0F0F0" font="Arial" base="thumbs/"> </thumbnail>
+    <photos id="images">
+      <photo path="IMG_0101.JPG" thumbpath="IMG_0101.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_0104.JPG" thumbpath="IMG_0104.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_0105.JPG" thumbpath="IMG_0105.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_0107.JPG" thumbpath="IMG_0107.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_0110.JPG" thumbpath="IMG_0110.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_0116.JPG" thumbpath="IMG_0116.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_0117.JPG" thumbpath="IMG_0117.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_0134.JPG" thumbpath="IMG_0134.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_0140.JPG" thumbpath="IMG_0140.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_0141.JPG" thumbpath="IMG_0141.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_0143.JPG" thumbpath="IMG_0143.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_0151.JPG" thumbpath="IMG_0151.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_0153.JPG" thumbpath="IMG_0153.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_0156.JPG" thumbpath="IMG_0156.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_0159.JPG" thumbpath="IMG_0159.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_0160.JPG" thumbpath="IMG_0160.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+    </photos>
+    <contactinfo></contactinfo>
+    <sitename>2007_09_04/</sitename>
+    <large border="0" fontsize="3" color="#F0F0F0" font="Arial" base="med_size/"> </large>
+    <photographer></photographer>
+    <email></email>
+  </gallery>

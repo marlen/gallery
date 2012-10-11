@@ -1,0 +1,23 @@
+  <gallery base="" background="#FFFFFF" text="#000000" date="4/11/2006" vlink="#800080" link="#0000FF" alink="#FF0000">
+    <banner fontsize="3" color="#F0F0F0" font="Arial"> </banner>
+    <security></security>
+    <thumbnail col="5" border="0" fontsize="4" rows="3" color="#F0F0F0" font="Arial" base="thumbs/"> </thumbnail>
+    <photos id="images">
+      <photo path="IMG_9809.JPG" thumbpath="IMG_9809.GIF" thumbwidth="75" thumbheight="75" width="432" height="648" />
+      <photo path="IMG_9810.JPG" thumbpath="IMG_9810.GIF" thumbwidth="75" thumbheight="75" width="432" height="648" />
+      <photo path="IMG_9811.JPG" thumbpath="IMG_9811.GIF" thumbwidth="75" thumbheight="75" width="432" height="648" />
+      <photo path="IMG_9812.JPG" thumbpath="IMG_9812.GIF" thumbwidth="75" thumbheight="75" width="432" height="648" />
+      <photo path="IMG_9813.JPG" thumbpath="IMG_9813.GIF" thumbwidth="75" thumbheight="75" width="432" height="648" />
+      <photo path="IMG_9814.JPG" thumbpath="IMG_9814.GIF" thumbwidth="75" thumbheight="75" width="432" height="648" />
+      <photo path="IMG_9815.JPG" thumbpath="IMG_9815.GIF" thumbwidth="75" thumbheight="75" width="432" height="648" />
+      <photo path="IMG_9816.JPG" thumbpath="IMG_9816.GIF" thumbwidth="75" thumbheight="75" width="432" height="648" />
+      <photo path="IMG_9817.JPG" thumbpath="IMG_9817.GIF" thumbwidth="75" thumbheight="75" width="432" height="648" />
+      <photo path="IMG_9818.JPG" thumbpath="IMG_9818.GIF" thumbwidth="75" thumbheight="75" width="432" height="648" />
+      <photo path="IMG_9819.JPG" thumbpath="IMG_9819.GIF" thumbwidth="75" thumbheight="75" width="432" height="648" />
+    </photos>
+    <contactinfo></contactinfo>
+    <sitename>2007_07_29/</sitename>
+    <large border="0" fontsize="3" color="#F0F0F0" font="Arial" base="med_size/"> </large>
+    <photographer></photographer>
+    <email></email>
+  </gallery>

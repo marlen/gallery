@@ -1,0 +1,42 @@
+  <gallery base="" background="#FFFFFF" text="#000000" date="4/11/2006" vlink="#800080" link="#0000FF" alink="#FF0000">
+    <banner fontsize="3" color="#F0F0F0" font="Arial"> </banner>
+    <security></security>
+    <thumbnail col="5" border="0" fontsize="4" rows="3" color="#F0F0F0" font="Arial" base="thumbs/"> </thumbnail>
+    <photos id="images">
+      <photo path="IMG_9738.JPG" thumbpath="IMG_9738.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9739.JPG" thumbpath="IMG_9739.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9740.JPG" thumbpath="IMG_9740.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9750.JPG" thumbpath="IMG_9750.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9751.JPG" thumbpath="IMG_9751.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9752.JPG" thumbpath="IMG_9752.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9753.JPG" thumbpath="IMG_9753.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9754.JPG" thumbpath="IMG_9754.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9755.JPG" thumbpath="IMG_9755.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9756.JPG" thumbpath="IMG_9756.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9757.JPG" thumbpath="IMG_9757.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9758.JPG" thumbpath="IMG_9758.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9759.JPG" thumbpath="IMG_9759.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9760.JPG" thumbpath="IMG_9760.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9761.JPG" thumbpath="IMG_9761.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9762.JPG" thumbpath="IMG_9762.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9763.JPG" thumbpath="IMG_9763.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9793.JPG" thumbpath="IMG_9793.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9796.JPG" thumbpath="IMG_9796.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9797.JPG" thumbpath="IMG_9797.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9798.JPG" thumbpath="IMG_9798.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9799.JPG" thumbpath="IMG_9799.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9800.JPG" thumbpath="IMG_9800.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9801.JPG" thumbpath="IMG_9801.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9802.JPG" thumbpath="IMG_9802.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9803.JPG" thumbpath="IMG_9803.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9804.JPG" thumbpath="IMG_9804.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9805.JPG" thumbpath="IMG_9805.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9806.JPG" thumbpath="IMG_9806.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+      <photo path="IMG_9807.JPG" thumbpath="IMG_9807.GIF" thumbwidth="75" thumbheight="75" width="500" height="333" />
+    </photos>
+    <contactinfo></contactinfo>
+    <sitename>2007_07_22/</sitename>
+    <large border="0" fontsize="3" color="#F0F0F0" font="Arial" base="med_size/"> </large>
+    <photographer></photographer>
+    <email></email>
+  </gallery>
